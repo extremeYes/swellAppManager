@@ -1,0 +1,17 @@
+axiom
+bat
+bottom
+btop
+ccleaner
+clever-ffmpeg
+fd
+glazewm
+jq
+neovide
+nodejs-lts
+notepadplusplus
+tcc
+vcredist2022
+wezterm
+yazi
+zoxide
