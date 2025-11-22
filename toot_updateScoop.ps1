@@ -15,4 +15,4 @@ tootPrint "clearing cache data..."
 scoop cache rm -a
 scoop cleanup -a
 
-tootPrint "says all done!"
+tootPrint "done!"

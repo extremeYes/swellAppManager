@@ -7,11 +7,11 @@ function tootPrint {
     Write-Host -ForegroundColor DarkBlue "WinToot" $message
 }
 
-# Uncomment this for a fresh Windows install
-tootPrint "installing scoop..."
-# this is the official install method from scoop.sh
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+# # Uncomment this for a fresh Windows install
+# tootPrint "installing scoop..."
+# # this is the official install method from scoop.sh
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+# Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
 tootPrint "will now install your stuff!"
 Start-Sleep -m 500
@@ -41,4 +41,4 @@ tootPrint "clearing cache data..."
 scoop cache rm -a
 scoop cleanup -a
 
-tootPrint "says all done!"
+tootPrint "done!"
