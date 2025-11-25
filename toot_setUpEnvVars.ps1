@@ -1,3 +1,4 @@
+#!/usr/bin/env -S pwsh -nop
 
 # --- Look Below for Userspace. ---
 
